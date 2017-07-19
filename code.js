@@ -25,7 +25,6 @@ function mouseClick(e)
 			t.innerText = "Start";
 			document.getElementById("grid").removeEventListener("click", check);
 			clearInterval(clock);
-			SetTimeOut(move);
 		}
 	}
 }
