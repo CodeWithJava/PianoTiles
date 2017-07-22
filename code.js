@@ -7,6 +7,8 @@ function initialize()
 		addRow();
 
 	document.getElementById("btn").addEventListener("click", mouseClick);
+	//	$("#start").on("click", start);
+	//$("#restart").on("click", start);
 }
 
 function mouseClick(e)
@@ -84,7 +86,7 @@ function move()
 		col.style.top = "-100px";
 		deleteRow();
 	}
-	else if(top == (speed - 100))
+	else if(top == (speed - 200))
 	{
 		var rows = col.childNodes;
 		if((rows.length == 5) && (rows[rows.length - 1].pass !== 1))
