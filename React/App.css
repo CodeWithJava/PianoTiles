@@ -1,0 +1,27 @@
+.grid
+{
+	width: 400px;
+	height: 400px;
+	background: white;
+	border: 2px solid gray;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.center
+{
+	text-align: center;
+}
+.white
+{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+.black
+{
+	height: 100px;
+	width: 100px;
+	float: left;
+	background: black;
+}
