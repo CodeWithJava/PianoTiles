@@ -8,6 +8,10 @@
 	position: relative;
 	overflow: hidden;
 }
+.color-red
+{
+  color: red;
+}
 .center
 {
 	text-align: center;
